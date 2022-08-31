@@ -1,12 +1,22 @@
 <template>
   <div id="app">
-    <nav>
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </nav>
-    <router-view/>
+    <Header class="sticky-top"/>
+    <router-view />
+    <Footer class="bg-dark text-light p-5 "/>
   </div>
 </template>
+
+<script>
+import Header from '@/components/header_isw/Header.vue';
+import Footer from '@/components/footer_isw/Footer.vue';
+
+export default {
+  components: {
+    Header,
+    Footer,
+  },
+};
+</script>
 
 <style>
 #app {

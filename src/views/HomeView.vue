@@ -2,6 +2,9 @@
   <div class="home">
     <img alt="Vue logo" src="../assets/logo.png" />
     <HelloWorld msg="Welcome to Your Vue.js App" />
+
+    <Section class="bg-dark border border-primary m-1 p-4"/>
+
     <button type="button" class="btn btn-primary">Primary</button>
     <button type="button" class="btn btn-secondary">Secondary</button>
     <button type="button" class="btn btn-success">Success</button>
@@ -18,11 +21,13 @@
 <script>
 // @ is an alias to /src
 import HelloWorld from '@/components/HelloWorld.vue';
+import Section from '@/components/sections_isw/section.vue'
 
 export default {
   name: 'HomeView',
   components: {
     HelloWorld,
+    Section
   },
 };
 </script>
