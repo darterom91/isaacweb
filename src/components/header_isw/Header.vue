@@ -1,9 +1,11 @@
 <template>
   <div class="header bg-dark container-fluid">
-    <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
       <div class="container-fluid">
-        <div class="col-6 col-sm-3 text-light display-6 fw-blod p-2 align-self-start">
-          IsaacWeB <i class="bi bi-film"></i>
+        <div class="col-8 col-sm-3 display-6 align-self-start p-2">
+          <a href="#" class="text-decoration-none text-light fw-blod">
+            IsaacWeB <i class="bi bi-film h6-sm"></i
+          ></a>
         </div>
         <button
           class="navbar-toggler"
@@ -14,7 +16,7 @@
           <span class="navbar-toggler-icon"></span>
         </button>
         <div
-          class="col-6 col-sm-5 collapse navbar-collapse justify-content-center p-2"
+          class="col-3 col-sm-5 collapse navbar-collapse justify-content-center p-2"
           id="collapsibleNavbar"
         >
           <div class="navbar-nav row border bg-light bg-opacity-75 rounded p-2">
