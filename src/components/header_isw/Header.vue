@@ -1,8 +1,8 @@
 <template>
   <div class="header bg-dark container-fluid">
-    <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+    <nav class="navbar navbar-expand-md bg-dark navbar-dark">
       <div class="container-fluid">
-        <div class="col-8 col-sm-3 display-6 align-self-start p-2">
+        <div class="col-8 col-sm-4 col-md-3 display-6 align-self-center p-1">
           <a href="#" class="text-decoration-none text-light fw-blod">
             IsaacWeB <i class="bi bi-film h6-sm"></i
           ></a>
@@ -16,7 +16,7 @@
           <span class="navbar-toggler-icon"></span>
         </button>
         <div
-          class="col-3 col-sm-5 collapse navbar-collapse justify-content-center p-2"
+          class="col-3 col-sm-2 col-md-5 collapse navbar-collapse justify-content-center p-2"
           id="collapsibleNavbar"
         >
           <div class="navbar-nav row border bg-light bg-opacity-75 rounded p-2">
@@ -50,7 +50,7 @@
             </div>
           </div>
         </div>
-        <div class="col-12 col-sm-3 p-2 align-self-center">
+        <div class="col-12 col-sm-4 col-md-3 p-2 align-self-center">
           <div class="row justify-content-center">
             <div class="col-2">
               <a href="#" class="text-decoration-none text-light fw-bold"
