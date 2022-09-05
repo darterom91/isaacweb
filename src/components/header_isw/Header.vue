@@ -1,10 +1,10 @@
 <template>
   <div class="header bg-dark container-fluid">
-    <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
       <div class="container-fluid">
         <div class="col-8 col-sm-4 col-md-3 display-6 align-self-center p-1">
           <a href="#" class="text-decoration-none text-light fw-blod">
-            IsaacWeB <i class="bi bi-film h6-sm"></i
+            IsaacWeB <i class="bi bi-film"></i
           ></a>
         </div>
         <button
