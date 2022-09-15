@@ -1,19 +1,21 @@
 <template>
   <div id="app">
-    <Header class="sticky-top"/>
-    <router-view />
-    <Footer class="bg-dark text-light p-5 "/>
+    <Header class="sticky-top" />
+    <Section/>
+    <Footer class="bg-dark text-light p-5" />
   </div>
 </template>
 
 <script>
 import Header from '@/components/header_isw/Header.vue';
+import Section from '@/components/sections_isw/section.vue'
 import Footer from '@/components/footer_isw/Footer.vue';
 
 export default {
   components: {
     Header,
-    Footer,
+    Section,
+    Footer
   },
 };
 </script>
