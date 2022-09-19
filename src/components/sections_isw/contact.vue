@@ -1,5 +1,5 @@
 <template>
-  <div class="contact container-fluid bg-warning rounded col-11 col-md-6 p-2">
+  <div id="contact" class="container-fluid bg-warning rounded col-11 col-md-6 p-2">
     <form
       class="bg-light rounded p-2"
       action="https://formsubmit.co/d.arterom@gmail.com"
@@ -9,7 +9,7 @@
       <div class="mb-4 text-start">
         <label
           for="exampleFormControlInput1"
-          class="form-label text-dark fw-bold"
+          class="form-label text-dark fw-bold p-2"
           >Email
         </label>
         <input
@@ -23,21 +23,21 @@
       <div class="mb-4 text-start">
         <label
           for="exampleFormControlInput1"
-          class="form-label text-dark fw-bold"
+          class="form-label text-dark fw-bold p-2"
           >Asunto
         </label>
         <input
           type="text"
           class="form-control bg-dark text-warning fw-bold"
           id="exampleFormControlInput1"
-          placeholder="Asunto"
+          placeholder="Asunto..."
           name="Asunto"
         />
       </div>
       <div class="mb-4 text-start">
         <label
           for="exampleFormControlTextarea1"
-          class="form-label text-dark fw-bold"
+          class="form-label text-dark fw-bold p-2"
           >Consulta</label
         >
         <textarea
