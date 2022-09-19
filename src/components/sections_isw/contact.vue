@@ -9,7 +9,7 @@
       <div class="mb-4 text-start">
         <label
           for="exampleFormControlInput1"
-          class="form-label text-dark fw-bold"
+          class="form-label text-dark fw-bold p-2"
           >Email
         </label>
         <input
@@ -23,21 +23,21 @@
       <div class="mb-4 text-start">
         <label
           for="exampleFormControlInput1"
-          class="form-label text-dark fw-bold"
+          class="form-label text-dark fw-bold p-2"
           >Asunto
         </label>
         <input
           type="text"
           class="form-control bg-dark text-warning fw-bold"
           id="exampleFormControlInput1"
-          placeholder="Asunto"
+          placeholder="Asunto..."
           name="Asunto"
         />
       </div>
       <div class="mb-4 text-start">
         <label
           for="exampleFormControlTextarea1"
-          class="form-label text-dark fw-bold"
+          class="form-label text-dark fw-bold p-2"
           >Consulta</label
         >
         <textarea
