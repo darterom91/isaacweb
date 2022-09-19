@@ -19,15 +19,18 @@
       consequatur laudantium repudiandae repellendus nisi placeat, ab voluptatum
       molestias fuga odit aperiam aliquam nulla quasi.
     </div>
+    <Contact/>
   </div>
 </template>
 
 <script>
 
 import Carrusel from '@/components/sections_isw/carrusel.vue'
+import Contact from '@/components/sections_isw/contact.vue'
 export default {
   components: {
-    Carrusel
+    Carrusel,
+    Contact
   }
 };
 </script>
