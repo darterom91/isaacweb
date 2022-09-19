@@ -1,5 +1,5 @@
 <template>
-  <div class="contact container-fluid bg-warning rounded col-11 col-md-6 p-2">
+  <div id="contact" class="container-fluid bg-warning rounded col-11 col-md-6 p-2">
     <form
       class="bg-light rounded p-2"
       action="https://formsubmit.co/d.arterom@gmail.com"
