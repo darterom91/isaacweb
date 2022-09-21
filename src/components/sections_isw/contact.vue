@@ -50,7 +50,7 @@
       </div>
       <input type="hidden" name="_template" value="table" />
       <button
-        class="col-6 rounded btn-dark text-warning fw-bold p-2"
+        class="col-6 rounded btn-dark text-warning fw-bold mb-2 p-2"
         type="submit"
       >
         Enviar
