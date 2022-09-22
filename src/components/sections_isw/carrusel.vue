@@ -1,5 +1,5 @@
 <template>
-  <div class="carrusel container rounded bg-warning p-2">
+  <div class="carrusel container rounded bg-warning opacity-75 p-2">
     <div
       id="carouselExampleControlsNoTouching"
       class="carousel slide carousel-fade"
@@ -11,7 +11,7 @@
         <div class="carousel-item active" data-interval="2000">
           <img
             src="@/assets/img/ashley-smith-F7_SV8ZCPW8-unsplash.jpg"
-            class="card-img w-100"
+            class="card-img w-100 opacity-75"
             alt="..."
           />
           <div class="card-img-overlay">
@@ -26,7 +26,7 @@
         <div class="carousel-item" data-interval="2000">
           <img
             src="@/assets/img/ashley-smith-quR5WUxOxRA-unsplash.jpg"
-            class="card-img w-100"
+            class="card-img w-100 opacity-75"
             alt="..."
           />
           <div class="card-img-overlay">
@@ -41,7 +41,7 @@
         <div class="carousel-item" data-interval="2000">
           <img
             src="@/assets/img/mael-balland-n2S0h4S5KXY-unsplash.jpg"
-            class="card-img w-100"
+            class="card-img w-100 opacity-75"
             alt="..."
           />
           <div class="card-img-overlay">

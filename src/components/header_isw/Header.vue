@@ -23,7 +23,7 @@
             <div class="nav-item col">
               <a
                 class="nav-link text-decoration-none text-dark text-opacity-75 fw-bold"
-                href="#"
+                href="#perfil"
                 >Perfil</a
               >
             </div>
