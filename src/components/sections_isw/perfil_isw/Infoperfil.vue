@@ -1,5 +1,5 @@
 <template>
-  <div id="perfil" class="container text-center">
+  <div class="container text-center">
     <div class="row justify-content-center bg-warning opacity-75 rounded my-2 p-2">
       <div
         class="col-12 col-md-3 border border-4 border-light text-light bg-dark p-4"
