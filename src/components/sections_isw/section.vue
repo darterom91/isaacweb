@@ -1,20 +1,20 @@
 <template>
   <div class="section bg-dark">
     <Carrusel class="w-100" />
-    <InfoPerfil />
+    <Perfil />
     <Contact />
   </div>
 </template>
 
 <script>
 
-import Carrusel from '@/components/sections_isw/carrusel.vue'
-import InfoPerfil from '@/components/sections_isw/infoperfil.vue'
-import Contact from '@/components/sections_isw/contact.vue'
+import Carrusel from '@/components/sections_isw/Carrusel.vue'
+import Perfil from '@/components/sections_isw/Perfil.vue'
+import Contact from '@/components/sections_isw/Contact.vue'
 export default {
   components: {
     Carrusel,
-    InfoPerfil,
+    Perfil,
     Contact
   }
 };
