@@ -8,7 +8,7 @@
 
 <script>
 import Header from '@/components/header_isw/Header.vue';
-import Section from '@/components/sections_isw/section.vue'
+import Section from '@/components/sections_isw/Section.vue'
 import Footer from '@/components/footer_isw/Footer.vue';
 
 export default {
