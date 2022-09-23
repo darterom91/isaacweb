@@ -85,6 +85,7 @@ img{
   object-fit: cover;
   object-position: center;
 
-  max-height: 800px;
+  max-height: 700px;
+  min-height: 300px;
 }
 </style>
