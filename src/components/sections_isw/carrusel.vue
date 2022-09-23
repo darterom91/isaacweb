@@ -11,12 +11,12 @@
         <div class="carousel-item active" data-interval="2000">
           <img
             src="@/assets/img/ashley-smith-F7_SV8ZCPW8-unsplash.jpg"
-            class="card-img w-100 opacity-75 img-fluid"
+            class="card-img w-100 opacity-75 "
             alt="..."
           />
           <div class="card-img-overlay">
             <h1
-              class="card-title d-flex display-1 fw-bold text-dark h-100 align-items-center justify-content-center"
+              class="card-title d-flex display-3 fw-bold text-dark h-100 align-items-center justify-content-center"
             >
               This is a wider card with supporting
             </h1>
@@ -26,12 +26,12 @@
         <div class="carousel-item" data-interval="2000">
           <img
             src="@/assets/img/ashley-smith-quR5WUxOxRA-unsplash.jpg"
-            class="card-img w-100 opacity-75 img-fluid"
+            class="card-img w-100 opacity-75 "
             alt="..."
           />
           <div class="card-img-overlay">
             <h1
-              class="card-title d-flex display-1 fw-bold text-dark h-100 align-items-center justify-content-center"
+              class="card-title d-flex display-3 fw-bold text-dark h-100 align-items-center justify-content-center"
             >
               This is a wider card with supporting
             </h1>
@@ -41,12 +41,12 @@
         <div class="carousel-item" data-interval="2000">
           <img
             src="@/assets/img/mael-balland-n2S0h4S5KXY-unsplash.jpg"
-            class="card-img w-100 opacity-75 img-fluid"
+            class="card-img w-100 opacity-75 "
             alt="..."
           />
           <div class="card-img-overlay">
             <h1
-              class="card-title d-flex display-1 fw-bold text-dark h-100 align-items-center justify-content-center"
+              class="card-title d-flex display-3 fw-bold text-dark h-100 align-items-center justify-content-center"
             >
               This is a wider card with supporting
             </h1>
@@ -80,4 +80,11 @@
 export default {};
 </script>
 
-<style scoped></style>
+<style scoped>
+img{
+  object-fit: cover;
+  object-position: center;
+
+  max-height: 800px;
+}
+</style>

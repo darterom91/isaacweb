@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <Header class="sticky-top" />
-    <Section/>
+    <Section />
     <Footer class="bg-dark text-light p-5" />
   </div>
 </template>

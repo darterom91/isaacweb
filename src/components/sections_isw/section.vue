@@ -1,7 +1,7 @@
 <template>
   <div class="section bg-dark">
     <Carrusel class="w-100" />
-    <InfoPerfil/>
+    <InfoPerfil />
     <Contact />
   </div>
 </template>

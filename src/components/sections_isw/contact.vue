@@ -1,7 +1,10 @@
 <template>
-  <div id="contact" class="container-fluid bg-warning opacity-75 rounded col-11 col-sm-8 p-2">
+  <div
+    id="contact"
+    class="container-fluid bg-warning opacity-75 rounded col-12 col-sm-8 col-md-6 p-2"
+  >
     <form
-      class="bg-light rounded p-2"
+      class="bg-light rounded p-5"
       action="https://formsubmit.co/d.arterom@gmail.com"
       method="POST"
     >
