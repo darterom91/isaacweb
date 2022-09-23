@@ -21,7 +21,7 @@
 <script>
 // @ is an alias to /src
 import HelloWorld from '@/components/HelloWorld.vue';
-import Section from '@/components/sections_isw/Section.vue'
+import Section from '@/components/sections_isw/section.vue'
 
 export default {
   name: 'HomeView',
