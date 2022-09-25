@@ -8,9 +8,9 @@
 
 <script>
 
-import Carrusel from '@/components/sections_isw/Carrusel.vue'
-import Perfil from '@/components/sections_isw/Perfil.vue'
-import Contact from '@/components/sections_isw/Contact.vue'
+import Carrusel from '@/components/sections_isw/carrusel.vue'
+import Perfil from '@/components/sections_isw/perfil.vue'
+import Contact from '@/components/sections_isw/contact.vue'
 export default {
   components: {
     Carrusel,
